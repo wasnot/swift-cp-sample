@@ -4,7 +4,7 @@
     <backgroundColor Red="248" Green="248" Blue="248"/>
     <size width="414" height="896"/>
     <layout xsi:type="com.scade.sdk.layout:AutoLayout"/>
-    <children xsi:type="com.scade.sdk.view:Container" name="container1" drawing="/3/@children.1/@children.0">
+    <children xsi:type="com.scade.sdk.view:Container" name="containerNav" drawing="/3/@children.1/@children.0">
       <layoutData xsi:type="com.scade.sdk.layout:AutoLayoutData">
         <constraints source="/0/@children.0" sourceAnchor="HEIGHT" constant="80.0" active="true"/>
         <constraints source="/0/@children.0" sourceAnchor="RIGHT" target="/0" targetAnchor="RIGHT" active="true"/>
@@ -16,7 +16,7 @@
       <layout xsi:type="com.scade.sdk.layout:AutoLayout"/>
       <minArea/>
       <maxArea width="-1" height="-1"/>
-      <children xsi:type="com.scade.sdk.view:Label" name="label1" drawing="/3/@children.1/@children.0/@children.1/@children.0" text="タスク追加" horizontalAlignment="CENTER">
+      <children xsi:type="com.scade.sdk.view:Label" name="labelTitle" drawing="/3/@children.1/@children.0/@children.1/@children.0" text="タスク追加" horizontalAlignment="CENTER">
         <layoutData xsi:type="com.scade.sdk.layout:AutoLayoutData">
           <constraints source="/0/@children.0/@children.0" sourceAnchor="CENTER_Y" target="/0/@children.0" targetAnchor="CENTER_Y" active="true"/>
           <constraints source="/0/@children.0/@children.0" sourceAnchor="CENTER_X" target="/0/@children.0" targetAnchor="CENTER_X" active="true"/>

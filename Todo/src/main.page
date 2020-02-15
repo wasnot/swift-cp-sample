@@ -100,7 +100,7 @@
       <layout xsi:type="com.scade.sdk.layout:AutoLayout"/>
       <minArea/>
       <maxArea width="-1" height="-1"/>
-      <children xsi:type="com.scade.sdk.view:Label" name="label2" drawing="/3/@children.1/@children.1/@children.1/@children.0" text="TODOリスト" horizontalAlignment="CENTER">
+      <children xsi:type="com.scade.sdk.view:Label" name="labelTitle" drawing="/3/@children.1/@children.1/@children.1/@children.0" text="TODOリスト" horizontalAlignment="CENTER">
         <layoutData xsi:type="com.scade.sdk.layout:AutoLayoutData">
           <constraints source="/0/@children.1/@children.0" sourceAnchor="CENTER_Y" target="/0/@children.1" targetAnchor="CENTER_Y" active="true"/>
           <constraints source="/0/@children.1/@children.0" sourceAnchor="CENTER_X" target="/0/@children.1" targetAnchor="CENTER_X" active="true"/>
@@ -114,8 +114,8 @@
           <constraints source="/0/@children.1/@children.1" sourceAnchor="CENTER_Y" target="/0/@children.1" targetAnchor="CENTER_Y" active="true"/>
           <constraints source="/0/@children.1/@children.1" sourceAnchor="RIGHT" target="/0/@children.1" targetAnchor="RIGHT" constant="-20.0" active="true"/>
         </layoutData>
-        <size width="49" height="40"/>
-        <location x="345" y="20"/>
+        <size width="49" height="-40"/>
+        <location x="345" y="60"/>
         <font fontFamily="ArialMT" size="34"/>
       </children>
     </children>
@@ -423,14 +423,14 @@
                 </expression>
               </constraints>
               <width value="49.0"/>
-              <height value="40.0"/>
+              <height value="-40.0"/>
             </children>
             <children xsi:type="svg:Text" attributes="{&quot;template-id&quot;:&quot;node-text&quot;}" fillOpacity="1.0" strokeOpacity="1.0" opacity="1.0" fontSize="34" fontName="ArialMT" text="+" anchor="middle" alignmentBaseline="central">
               <fill xsi:type="svg_2:RGBColor" r="0.26666668" g="0.41568628" b="0.7019608"/>
               <x value="24.0"/>
-              <y value="20.0"/>
+              <y value="-20.0"/>
             </children>
-            <matrix translateX="345.0" translateY="20.0"/>
+            <matrix translateX="345.0" translateY="60.0"/>
           </children>
         </children>
       </children>
